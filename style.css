@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar
+{   background-color: aqua;
+    display: flex;
+    background :linear-gradient(rgb(255, 0, 0) , blue);
+}
+.navbar .logo 
+{
+    
+    width: 8rem;
+    height: 6rem;
+    
+}
+.navbar .logo img
+{
+    width: 7rem;
+    height: 5rem;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.navbar ul{
+margin-left: 7rem;
+width: 50%;
+margin-top: 50px;
+
+}
+.navbar ul li{
+display: inline;
+list-style: none;
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    padding: 30px;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    color: chartreuse;
+    transition: 0.1s linear;
+    
+}
+.navbar ul li a:hover{
+    color: orange;
+    text-decoration: underline darkgreen;
+    
+}
+.rightnav
+{
+    
+    margin-top: 3rem;
+    
+}
+.rightnav input
+{
+    width: 15rem;
+    height: 2rem;
+    border: 2px solid black;
+    border-radius: 1.5rem;
+    text-align: center;
+}
+.btn
+{
+    width: 5rem;
+    height: 2rem;
+    border: 2px solid black;
+    border-radius: 1.4rem;
+    font-size: larger;
+}
+.rightnav input[text]
+{
+    text-align: center;
+    font-size: x-large;
+    color: aqua;
+    font-weight: bold;
+}
+
+
+
+
+.box-main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first-half
+{
+width: 50%;
+
+}
+.text-big
+{
+   text-align: center;
+   font-size: xx-large;
+   font-style: italic;
+   color: brown;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.box-main .first-half .text-small
+{ 
+    text-align: center;
+  font-size: large
+}
+.secondhalf
+{ background-color: aqua;
+    width: 50%;
+
+
+}
+.secondhalf img{
+    
+    width: 30%;
+    height: 20%;
+}
